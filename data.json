@@ -8,11 +8,29 @@
     "avans_target": 100000,
     "eur_rate": 4.97,
     "fire_target": 600000,
-    "cash_cats": [
-      "Cont BT1",
-      "Cont BT2 - avans locuință",
-      "Cont curent + cash"
+    "scopuri": [],
+    "goals": [],
+    "instrumente": [
+      {
+        "name": "ETFs",
+        "pct": 70,
+        "min_monthly": 2625,
+        "target_eur": 420000
+      },
+      {
+        "name": "Actiuni Ro",
+        "pct": 20,
+        "min_monthly": 750,
+        "target_eur": 60000
+      },
+      {
+        "name": "Crypto",
+        "pct": 10,
+        "min_monthly": 375,
+        "target_eur": 60000
+      }
     ],
+    "datorii": [],
     "income_cats": [
       "Salariu",
       "Bonuri de masă",
@@ -44,194 +62,12 @@
       "Reparații/Cauciucuri",
       "Transport CTP / Taxi"
     ],
-    "instrumente": [
-      {
-        "name": "ETFs",
-        "pct": 70,
-        "min_monthly": 2625,
-        "target_eur": 420000
-      },
-      {
-        "name": "Actiuni Ro",
-        "pct": 20,
-        "min_monthly": 750,
-        "target_eur": 60000
-      },
-      {
-        "name": "Crypto",
-        "pct": 10,
-        "min_monthly": 375,
-        "target_eur": 60000
-      }
-    ],
-    "scopuri": [],
-    "goals": [],
-    "datorii": []
+    "cash_cats": [
+      "Cont BT1",
+      "Cont BT2 - avans locuință",
+      "Cont curent + cash"
+    ]
   },
-  "etf": [
-    {
-      "name": "iShares Core MSCI World UCITS ETF (Acc EUR)",
-      "ticker": "EUNL",
-      "industry": "Global",
-      "pct_target": 0.7,
-      "eur_target": 294000,
-      "qty": 216,
-      "price": 114.725,
-      "currency": "EUR"
-    },
-    {
-      "name": "iShares S&P 500 Information Technology Sector UCITS ETF (Acc EUR)",
-      "ticker": "QDVE",
-      "industry": "Tehnologie",
-      "pct_target": 0.3,
-      "eur_target": 126000,
-      "qty": 186,
-      "price": 35.95,
-      "currency": "EUR"
-    }
-  ],
-  "act": [
-    {
-      "name": "Hidroelectrica",
-      "ticker": "H2O",
-      "industry": "Energie",
-      "pct_target": 0.142,
-      "eur_target": 8520,
-      "qty": 380,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "Nuclearelectrica",
-      "ticker": "SNN",
-      "industry": "Energie",
-      "pct_target": 0.119,
-      "eur_target": 7140,
-      "qty": 484,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "BRD",
-      "ticker": "BRD",
-      "industry": "Finante",
-      "pct_target": 0.116,
-      "eur_target": 6960,
-      "qty": 1273,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "Banca Transilvania",
-      "ticker": "TLV",
-      "industry": "Finante",
-      "pct_target": 0.115,
-      "eur_target": 6900,
-      "qty": 972,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "OMV Petrom",
-      "ticker": "SNP",
-      "industry": "Energie",
-      "pct_target": 0.093,
-      "eur_target": 5580,
-      "qty": 32652,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "Romgaz",
-      "ticker": "SNG",
-      "industry": "Energie",
-      "pct_target": 0.059,
-      "eur_target": 3540,
-      "qty": 245,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "TVBET ETF",
-      "ticker": "TVBETETF",
-      "industry": "BET ETF",
-      "pct_target": 0.026,
-      "eur_target": 1560,
-      "qty": 35,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "Teraplast",
-      "ticker": "TRP",
-      "industry": "Constructii",
-      "pct_target": 0.018,
-      "eur_target": 1080,
-      "qty": 7120,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "Electrica",
-      "ticker": "EL",
-      "industry": "Energie",
-      "pct_target": 0.016,
-      "eur_target": 960,
-      "qty": 310,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "Conpet",
-      "ticker": "COTE",
-      "industry": "Energie",
-      "pct_target": 0.009,
-      "eur_target": 540,
-      "qty": 23,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "Transgaz",
-      "ticker": "TGN",
-      "industry": "Energie",
-      "pct_target": 0.005,
-      "eur_target": 300,
-      "qty": 48,
-      "price": 0,
-      "currency": "RON"
-    },
-    {
-      "name": "Titluri de stat EUR",
-      "ticker": "R2804AE",
-      "industry": "Obligatiuni",
-      "pct_target": 0.28,
-      "eur_target": 16800,
-      "qty": 103,
-      "price": 100.0,
-      "currency": "EUR"
-    }
-  ],
-  "crypto": [
-    {
-      "name": "Bitcoin Ledger",
-      "ticker": "BTC",
-      "pct_target": 1.0,
-      "eur_target": 60000,
-      "qty": 1.15,
-      "price": 61221.41,
-      "currency": "EUR"
-    },
-    {
-      "name": "Binance",
-      "ticker": "BTC",
-      "pct_target": 0.01,
-      "eur_target": 600,
-      "qty": 0.00873,
-      "price": 61221.41,
-      "currency": "EUR"
-    }
-  ],
   "bd": {
     "2023": {
       "cash": {
@@ -1787,7 +1623,7 @@
         ],
         "APEX Futures": [
           0,
-          200,
+          0,
           0,
           0,
           0,
@@ -2186,6 +2022,171 @@
       }
     }
   },
+  "etf": [
+    {
+      "name": "iShares Core MSCI World UCITS ETF (Acc EUR)",
+      "ticker": "EUNL",
+      "industry": "Global",
+      "pct_target": 0.7,
+      "eur_target": 294000,
+      "qty": 216,
+      "price": 114.725,
+      "currency": "EUR"
+    },
+    {
+      "name": "iShares S&P 500 Information Technology Sector UCITS ETF (Acc EUR)",
+      "ticker": "QDVE",
+      "industry": "Tehnologie",
+      "pct_target": 0.3,
+      "eur_target": 126000,
+      "qty": 186,
+      "price": 35.95,
+      "currency": "EUR"
+    }
+  ],
+  "act": [
+    {
+      "name": "Hidroelectrica",
+      "ticker": "H2O",
+      "industry": "Energie",
+      "pct_target": 0.142,
+      "eur_target": 8520,
+      "qty": 380,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "Nuclearelectrica",
+      "ticker": "SNN",
+      "industry": "Energie",
+      "pct_target": 0.119,
+      "eur_target": 7140,
+      "qty": 484,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "BRD",
+      "ticker": "BRD",
+      "industry": "Finante",
+      "pct_target": 0.116,
+      "eur_target": 6960,
+      "qty": 1273,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "Banca Transilvania",
+      "ticker": "TLV",
+      "industry": "Finante",
+      "pct_target": 0.115,
+      "eur_target": 6900,
+      "qty": 972,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "OMV Petrom",
+      "ticker": "SNP",
+      "industry": "Energie",
+      "pct_target": 0.093,
+      "eur_target": 5580,
+      "qty": 32652,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "Romgaz",
+      "ticker": "SNG",
+      "industry": "Energie",
+      "pct_target": 0.059,
+      "eur_target": 3540,
+      "qty": 245,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "TVBET ETF",
+      "ticker": "TVBETETF",
+      "industry": "BET ETF",
+      "pct_target": 0.026,
+      "eur_target": 1560,
+      "qty": 35,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "Teraplast",
+      "ticker": "TRP",
+      "industry": "Constructii",
+      "pct_target": 0.018,
+      "eur_target": 1080,
+      "qty": 7120,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "Electrica",
+      "ticker": "EL",
+      "industry": "Energie",
+      "pct_target": 0.016,
+      "eur_target": 960,
+      "qty": 310,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "Conpet",
+      "ticker": "COTE",
+      "industry": "Energie",
+      "pct_target": 0.009,
+      "eur_target": 540,
+      "qty": 23,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "Transgaz",
+      "ticker": "TGN",
+      "industry": "Energie",
+      "pct_target": 0.005,
+      "eur_target": 300,
+      "qty": 48,
+      "price": 0,
+      "currency": "RON"
+    },
+    {
+      "name": "Titluri de stat EUR",
+      "ticker": "R2804AE",
+      "industry": "Obligatiuni",
+      "pct_target": 0.28,
+      "eur_target": 16800,
+      "qty": 103,
+      "price": 100,
+      "currency": "EUR"
+    }
+  ],
+  "crypto": [
+    {
+      "name": "Bitcoin Ledger",
+      "ticker": "BTC",
+      "pct_target": 1,
+      "eur_target": 60000,
+      "qty": 1.15,
+      "price": 61221.41,
+      "currency": "EUR"
+    },
+    {
+      "name": "Binance",
+      "ticker": "BTC",
+      "pct_target": 0.01,
+      "eur_target": 600,
+      "qty": 0.00873,
+      "price": 61221.41,
+      "currency": "EUR"
+    }
+  ],
+  "_catsInited": false,
   "est": {
     "items": []
   },
